@@ -1,6 +1,6 @@
 public class task2 {
 
-    public static void Version(int OS, int DeviceYear) {
+    public static void selectVersion(int OS, int DeviceYear) {
         if (OS == 0) {
             if (DeviceYear < 2015) {
                 System.out.println("Установите облегченную версию приложения для iOS по ссылке.");
@@ -14,7 +14,7 @@ public class task2 {
     public static void main(String[] args) {
         int clientOS = 1;
         int clientDeviceYear = 2022;
-        Version(clientOS, clientDeviceYear);
+        selectVersion(clientOS, clientDeviceYear);
 
     }
 
